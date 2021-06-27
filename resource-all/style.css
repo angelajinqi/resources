@@ -1,0 +1,355 @@
+html {
+  height: 200%;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow: visible;
+  background: black;
+  
+}
+/* Create a wrapper that allows you to position the circle where you want on the screen*/
+.wrapper {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+
+
+/* Adjusted size to fit text */
+#circle {
+  height: 20vw; 
+  width: 20vw;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  background: black;
+  box-shadow: 5px 10px 18px #888888;
+  padding: 20px;
+  line-height: 1.4;
+  z-index: 1;
+}
+
+.text {
+  font-size: 1em;
+  color:white;
+  background-color: none；
+
+}
+
+
+h1 {
+  font-size: 7vw;
+  text-align:right;
+  color:white;
+  padding: 0;
+  font-weight: 900;
+  position: absolute;
+  font-family: 'Kirang Haerang', cursive;
+  letter-spacing: 2px;
+  position:   absolute; 
+  right:50px;
+
+}
+
+/*title links*/
+a{
+  text-decoration: none;
+
+  position: relative;
+  z-index: 1;
+}
+
+.underline{
+  position: relative;
+
+  color: white;
+  font-size: 2vw;
+  font-family: 'Kirang Haerang', cursive;
+  left:0px;
+  top:-30px;*/
+}
+
+.underline::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: #add8e6;
+  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .underline:hover::before{
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+}
+
+
+.underline2{
+  position: relative;
+
+  color: white;
+  font-size: 2vw;
+  font-family: 'Kirang Haerang', cursive;
+  left:0px;
+  top:-30px;*/
+}
+
+.underline2::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: #add8e6;
+  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .underline2:hover::before{
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+}
+.wrapper2 {
+  position: absolute;
+  top: 55%;
+  left: 55%;
+}
+
+#circle2 {
+  height: 15vw; 
+  width: 15vw;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  background: black;
+  box-shadow: 5px 10px 18px #888888;
+  padding: 20px;
+  line-height: 1.4;
+  z-index: 1;
+}
+a{
+  text-decoration: none;
+
+  position: relative;
+  z-index: 1;
+}
+
+.underline3{
+  position: relative;
+
+  color: white;
+  font-size: 2vw;
+  font-family: 'Kirang Haerang', cursive;
+  left:0px;
+  top:-30px;*/
+}
+
+.underline3::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: #add8e6;
+  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .underline3:hover::before{
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+}
+a{
+  text-decoration: none;
+
+  position: relative;
+  z-index: 1;
+}
+
+.underline4{
+  position: relative;
+
+  color: white;
+  font-size: 2vw;
+  font-family: 'Kirang Haerang', cursive;
+  left:0px;
+  top:-30px;*/
+}
+
+.underline4::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: #add8e6;
+  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .underline4:hover::before{
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+}
+a{
+  text-decoration: none;
+
+  position: relative;
+  z-index: 1;
+}
+
+.underline5{
+  position: relative;
+
+  color: white;
+  font-size: 2vw;
+  font-family: 'Kirang Haerang', cursive;
+  left:0px;
+  top:-30px;*/
+}
+
+.underline5::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: #add8e6;
+  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .underline5:hover::before{
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+}
+a{
+  text-decoration: none;
+
+  position: relative;
+  z-index: 1;
+}
+
+.underline6{
+  position: relative;
+
+  color: white;
+  font-size: 2vw;
+  font-family: 'Kirang Haerang', cursive;
+  left:0px;
+  top:-30px;*/
+}
+
+.underline6::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: #add8e6;
+  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .underline6:hover::before{
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+}
+a{
+  text-decoration: none;
+
+  position: relative;
+  z-index: 1;
+}
+
+.underline7{
+  position: relative;
+
+  color: white;
+  font-size: 2vw;
+  font-family: 'Kirang Haerang', cursive;
+  left:0px;
+  top:-30px;*/
+}
+
+.underline7::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: #add8e6;
+  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .underline7:hover::before{
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+}
+a{
+  text-decoration: none;
+
+  position: relative;
+  z-index: 1;
+}
+
+.underline8{
+  position: relative;
+
+  color: white;
+  font-size: 2vw;
+  font-family: 'Kirang Haerang', cursive;
+  left:0px;
+  top:-30px;*/
+}
+
+.underline8::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: #add8e6;
+  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .underline8:hover::before{
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+}
+
+
+
+
